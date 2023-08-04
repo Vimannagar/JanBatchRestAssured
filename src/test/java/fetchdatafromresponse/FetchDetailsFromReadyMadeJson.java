@@ -1,5 +1,6 @@
 package fetchdatafromresponse;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.path.json.JsonPath;
@@ -43,6 +44,39 @@ public class FetchDetailsFromReadyMadeJson {
 		
 		System.out.println(value);//www.abc.com
 		
+		
+//		Solution for 4th point
+		
+		int courseCount = jp.getInt("courses.size()");
+		
+		for(int i=0; i<courseCount; i++)
+		{
+			String title = jp.getString("courses["+i+"].title");
+			int price = jp.getInt("courses["+i+"].price");
+			
+			System.out.println(title+" : "+price);
+			
+			
+		}
+		
+//		Solution for 6th point
+		
+		int sum = 0;
+		
+		for(int i=0; i<courseCount; i++)
+		{
+			int copiesCount = jp.getInt("courses["+i+"].copies");
+			int price = jp.getInt("courses["+i+"].price");
+			
+			int amount = price * copiesCount;
+			
+			sum = sum+ amount;
+				
+		}
+		
+		int totalAmount = jp.getInt("dashboard.purchaseAmount");
+		
+		Assert.assertEquals(sum, totalAmount);
 		
 	}
 	

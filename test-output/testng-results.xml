@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-02T20:02:33 IST" name="Default suite" finished-at="2023-08-02T20:02:42 IST" duration-ms="9054">
+  <suite started-at="2023-08-04T19:34:44 IST" name="Default suite" finished-at="2023-08-04T19:34:49 IST" duration-ms="4735">
     <groups>
     </groups>
-    <test started-at="2023-08-02T20:02:33 IST" name="Default test" finished-at="2023-08-02T20:02:42 IST" duration-ms="9054">
-      <class name="fetchdatafromresponse.UsingJsonPathMethod">
-        <test-method signature="getUserDetails()[pri:0, instance:fetchdatafromresponse.UsingJsonPathMethod@4a7f959b]" started-at="2023-08-02T20:02:33 IST" name="getUserDetails" finished-at="2023-08-02T20:02:42 IST" duration-ms="8908" status="PASS">
+    <test started-at="2023-08-04T19:34:44 IST" name="Default test" finished-at="2023-08-04T19:34:49 IST" duration-ms="4735">
+      <class name="fetchdatafromresponse.FetchDetailsFromReadyMadeJson">
+        <test-method signature="fetchData()[pri:0, instance:fetchdatafromresponse.FetchDetailsFromReadyMadeJson@3e84448c]" started-at="2023-08-04T19:34:44 IST" name="fetchData" finished-at="2023-08-04T19:34:49 IST" duration-ms="4613" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserDetails -->
-      </class> <!-- fetchdatafromresponse.UsingJsonPathMethod -->
+        </test-method> <!-- fetchData -->
+      </class> <!-- fetchdatafromresponse.FetchDetailsFromReadyMadeJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
