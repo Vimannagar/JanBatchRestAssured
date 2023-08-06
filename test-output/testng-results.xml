@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-04T19:34:44 IST" name="Default suite" finished-at="2023-08-04T19:34:49 IST" duration-ms="4735">
+  <suite started-at="2023-08-06T20:19:40 IST" name="Default suite" finished-at="2023-08-06T20:19:47 IST" duration-ms="6566">
     <groups>
     </groups>
-    <test started-at="2023-08-04T19:34:44 IST" name="Default test" finished-at="2023-08-04T19:34:49 IST" duration-ms="4735">
-      <class name="fetchdatafromresponse.FetchDetailsFromReadyMadeJson">
-        <test-method signature="fetchData()[pri:0, instance:fetchdatafromresponse.FetchDetailsFromReadyMadeJson@3e84448c]" started-at="2023-08-04T19:34:44 IST" name="fetchData" finished-at="2023-08-04T19:34:49 IST" duration-ms="4613" status="PASS">
+    <test started-at="2023-08-06T20:19:40 IST" name="Default test" finished-at="2023-08-06T20:19:47 IST" duration-ms="6566">
+      <class name="serializationanddeserialization.Get_ListUsers">
+        <test-method signature="getUsers()[pri:0, instance:serializationanddeserialization.Get_ListUsers@32b260fa]" started-at="2023-08-06T20:19:41 IST" name="getUsers" finished-at="2023-08-06T20:19:47 IST" duration-ms="6316" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchData -->
-      </class> <!-- fetchdatafromresponse.FetchDetailsFromReadyMadeJson -->
+        </test-method> <!-- getUsers -->
+      </class> <!-- serializationanddeserialization.Get_ListUsers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
