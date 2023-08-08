@@ -5,6 +5,8 @@
     <classes>
      <class name="ecom.LoginAPI"/>
       <class name="ecom.AddProductAPI"/>
+       <class name="ecom.PlaceOrder"/>
+       <class name="ecom.DeleteAPI"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

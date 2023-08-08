@@ -16,11 +16,15 @@ public class GET_ListUser {
 		
 	Response resp = given()
 			
+					.queryParam("page", "2")
+					
+					.queryParams("page", "2", "book", "3")
+			
 					.log().all()
 		
 					.when()
 		
-					.get("/api/users/2")
+					.get("/api/users")
 		
 					.then()
 					
